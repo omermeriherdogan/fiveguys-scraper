@@ -3551,8 +3551,6 @@ async def wait_for_milkshake_mixin_cards(tab, location, milkshake_url, browser):
                     use_cloudflare_bypass_wrapper=False,
                 )
 
-        # The milkshake mix-in section sits below the hero and seems to lazy-render,
-        # so scroll before deciding that the option cards are missing.
         await scroll_me(tab)
         await asyncio.sleep(1)
 
@@ -8325,8 +8323,6 @@ async def main():
     else:
         failed_location_entries = []
 
-    # The CSVs are written incrementally during the run. Keep them intact here
-    # so timed-out stores with already-parsed location/menu rows are not erased.
     export_locations_to_json(locations)
     export_menu_to_json(locations)
     export_classic_combo_to_json(locations)
