@@ -1,4 +1,4 @@
-# Five Guys Public Data Scraper
+﻿# Five Guys Scraper
 
 A Python data pipeline for collecting public Five Guys location, menu, Classic Combo, milkshake mix-in, and Google Maps review data into CSV and JSON outputs.
 
