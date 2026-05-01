@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Runtime Chrome profiles and browser/debug artifacts
+.chrome-worker-profiles/
+.google-maps-review-profile/
+.google-maps-review-profiles/
+.turnstile-debug-profiles/
+google_maps_debug/
+chrome-worker-profiles/
+
+# Logs
+logs/
+*.log
+
+# Scrape outputs: keep locally, publish intentionally if needed
+locations.csv
+locations.json
+menu_items.csv
+menu_items.json
+classic_combo_items.csv
+classic_combo_items.json
+milkshake_mixin_items.csv
+milkshake_mixin_items.json
+google_reviews.csv
+google_reviews.json
+scrape_failures.csv
+
+# Local scratch/old copies
+scraper2.py
+scraper3.py
+notes.txt
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

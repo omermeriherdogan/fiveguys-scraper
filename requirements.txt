@@ -1,0 +1,2 @@
+pydoll-python==2.22.1
+selectolax==0.4.7
