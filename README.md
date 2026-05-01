@@ -81,6 +81,17 @@ $env:SCRAPE_LOCATION_TIMEOUT_SECONDS="480"
 
 Large output files are ignored by Git by default. Share them with clients separately as deliverables, not as normal source-control files.
 
+## Sample Outputs
+
+Small CSV samples are included under `examples/sample_outputs/`. Each sample contains the header plus the first five rows from a real completed run:
+
+- `examples/sample_outputs/locations_sample.csv`
+- `examples/sample_outputs/menu_items_sample.csv`
+- `examples/sample_outputs/classic_combo_items_sample.csv`
+- `examples/sample_outputs/milkshake_mixin_items_sample.csv`
+- `examples/sample_outputs/google_reviews_sample.csv`
+- `examples/sample_outputs/scrape_failures_sample.csv`
+
 ## Operational Notes
 
 - Worker Chrome profiles are disposable and recreated automatically.
